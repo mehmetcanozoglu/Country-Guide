@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>  
+<body> 
+  <section> 
+    <div class="wrapper">
+      <div id="search-container">
+        <input
+          type="search"
+          id="search-input"
+          placeholder="Search product name here.."
+        />
+        <button id="search">Search</button>
+      </div> 
+      <div id="buttons"> 
+        <button class="button-value" onclick="filterProduct('all')">All</button>
+        <button class="button-value" onclick="filterProduct('naboo')">
+          naboo
+        </button>
+        <button class="button-value" onclick="filterProduct('bestine')">
+          bestine
+        </button>
+        <button class="button-value" onclick="filterProduct('tatooine')">
+          tatooine
+        </button>
+        <button class="button-value" onclick="filterProduct('Rodia')">
+          Rodia
+        </button>
+        <button class="button-value" onclick="filterProduct('corellia')">
+          corellia
+        </button>
+        <button class="button-value" onclick="filterProduct('kashyyyk')">
+          kashyyyk 
+        </button>
+        <button class="button-value" onclick="filterProduct('eriadu')">
+          eriadu
+        </button>
+        <button class="button-value" onclick="filterProduct('stewjon')">
+          stewjon
+        </button>
+        <button class="button-value" onclick="filterProduct('alderaan')">
+          alderaan
+        </button>
+      </div>
+      <div id="card-container"></div>
+    </div>
+
+      
+  
+  <script src="app.js"></script>
+</body>
+</html>
